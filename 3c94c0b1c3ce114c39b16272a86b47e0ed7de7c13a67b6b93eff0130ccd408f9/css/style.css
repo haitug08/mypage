@@ -888,7 +888,7 @@ main {
 .ac-box input:checked ~ .open{
 	height: auto;
 	margin: auto;
-	background: #def2f5;
+	background: #f7f7f7;
 	border: 0px solid #111;
 	opacity: 1;
 	padding: 0px 0px 0px 40px;
