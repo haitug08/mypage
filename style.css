@@ -26,7 +26,7 @@ input {
 /*————————————————————————————————*/
 html {
   height: 100%;
-  background-color: #f7f7f7;
+  background-color: #111;
 }
 input {
   font-family: "Orbitron", sans-serif;
@@ -37,7 +37,7 @@ input {
   border-radius: 25px;
   color: #111;
   -webkit-text-fill-color: #111;
-  background-color: #def2f5;
+  background-color: #f7f7f7;
   font-size: 40px;
 }
 
@@ -55,6 +55,6 @@ p {
   font-weight: 600;
   font-size: 20px;
   line-height: 40px;
-  color: #def2f5;
-  -webkit-text-fill-color: #def2f5;
+  color: #f7f7f7;
+  -webkit-text-fill-color: #f7f7f7;
 }
