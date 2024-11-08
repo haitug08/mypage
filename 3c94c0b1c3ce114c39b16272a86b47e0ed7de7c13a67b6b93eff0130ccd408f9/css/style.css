@@ -1165,3 +1165,6 @@ main {
 .helpbutton:hover {
     cursor: pointer;
 }
+#menubar.db a {
+	color: #333;	/*文字色*/
+}
