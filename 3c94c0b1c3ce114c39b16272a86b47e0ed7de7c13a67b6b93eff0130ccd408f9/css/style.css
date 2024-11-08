@@ -397,6 +397,7 @@ footer .pr {display: block;}
 /*tr（１行分）タグ設定*/
 .ta1 tr {
 	border-bottom: 1px solid #ccc;	/*テーブルの下線。幅、線種、色*/
+	background-color: #fff;
 }
 
 /*th（左側）、td（右側）の共通設定*/
