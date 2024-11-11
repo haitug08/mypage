@@ -121,6 +121,17 @@ $(function(){
         });
 
 
-<!--
 if (!document.referrer){top.location.href="https://haitug08.github.io/mypage/";}
-//-->
+
+function customCalculate() {
+    var selectedOption = document.querySelector('input[name="course"]:checked').value;
+    if (selectedOption === "amount_fixed") {
+        document.querySelector(".open1").style.display = "block";
+        document.querySelector(".open2").style.display = "none";
+        document.querySelector(".open3").style.display = "block";
+    } else if (selectedOption === "premium_fixed") {
+        document.querySelector(".open1").style.display = "none";
+        document.querySelector(".open2").style.display = "block";
+        document.querySelector(".open3").style.display = "block";
+    }
+}
