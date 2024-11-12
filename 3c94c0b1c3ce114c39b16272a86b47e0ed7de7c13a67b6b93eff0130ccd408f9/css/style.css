@@ -349,10 +349,10 @@ footer .pr {display: block;}
 ---------------------------------------------------------------------------*/
 /*ボタンを囲むブロック*/
 .btn {
-	text-align: center;	/*内容をセンタリング*/
+	text-align: left;	/*内容をセンタリング*/
 	width: 50%;
 	min-width: 250px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 /*ボタン*/
