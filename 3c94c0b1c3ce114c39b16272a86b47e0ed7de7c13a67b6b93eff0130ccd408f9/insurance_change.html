@@ -41,15 +41,12 @@
     <tr>
       <th>項目</th>
        <td>
-        <div class="select1">
-         <select id="" name="course" onchange="customCalculate()" style="width: 300px;">
-          <option value=" ">　</option>
-          <option value="change01">保険契約内容（更新時のみ）</option>
-          <option value="change02">契約者情報</option>
-          <option value="change03">被保険者情報</option>
-          <option value="change04">その他の情報</option>
-         </select>
-        </div>
+       <div class="radio1">
+        <input type="radio" id="change01" name="course" onchange="customCalculate()" value="change01">
+        <label for="change01" style="width: 200px;">保険契約内容</label>
+        <input type="radio" id="change02" name="course" onchange="customCalculate()" value="change02">
+        <label for="change02" style="width: 200px;">契約者情報</label>
+       </div>
        </td>
     </tr>
    </table>
