@@ -120,18 +120,31 @@ $(function(){
         $('#navigation').load('navigation.html'); 
         });
 
-
+//サイト外からのページ遷移を弾く
 if (!document.referrer){top.location.href="https://haitug08.github.io/mypage/";}
 
+//変更手続き内の表示・非表示切り替え
 function customCalculate() {
     var selectedOption = document.querySelector('input[name="course"]:checked').value;
     if (selectedOption === "change01") {
         document.querySelector(".open1").style.display = "block";
         document.querySelector(".open2").style.display = "none";
         document.querySelector(".open3").style.display = "none";
+        document.querySelector(".open4").style.display = "none";
     } else if (selectedOption === "change02") {
         document.querySelector(".open1").style.display = "none";
         document.querySelector(".open2").style.display = "block";
         document.querySelector(".open3").style.display = "none";
+        document.querySelector(".open4").style.display = "none";
+    } else if (selectedOption === "change03") {
+        document.querySelector(".open1").style.display = "none";
+        document.querySelector(".open2").style.display = "none";
+        document.querySelector(".open3").style.display = "block";
+        document.querySelector(".open4").style.display = "none";
+    } else if (selectedOption === "change04") {
+        document.querySelector(".open1").style.display = "none";
+        document.querySelector(".open2").style.display = "none";
+        document.querySelector(".open3").style.display = "none";
+        document.querySelector(".open4").style.display = "block";
     }
 }
