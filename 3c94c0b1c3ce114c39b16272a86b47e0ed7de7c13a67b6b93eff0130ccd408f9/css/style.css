@@ -352,6 +352,7 @@ footer .pr {display: block;}
 	text-align: center;	/*内容をセンタリング*/
 	width: 50%;
 	min-width: 250px;
+	margin-bottom: 30px;
 }
 
 /*ボタン*/
