@@ -148,3 +148,14 @@ function customCalculate() {
         document.querySelector(".open4").style.display = "block";
     }
 }
+
+  // 解約手続き内の月末日を取得して表示する関数
+  function setEndOfMonth() {
+    const today = new Date();
+    const endOfMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0); // 月末日
+    const formattedDate = `${endOfMonth.getFullYear()}年${endOfMonth.getMonth() + 1}月${endOfMonth.getDate()}日`;
+    document.getElementById("termination-date").innerText = formattedDate;
+  }
+
+  // ページ読み込み後に月末日を設定
+  window.onload = setEndOfMonth;
