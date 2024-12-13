@@ -1038,12 +1038,6 @@ main {
 	width: 30%;
 }
 
-@media screen and (max-width:899px) {
-.col_width {
-	width: 50%;
-}
-	
-}	
 
 .open1, .open2, .open3, .open4, .open5 {
 	display: none;
@@ -1170,8 +1164,14 @@ main {
 	color: #333;	/*文字色*/
 }
 
+@media screen and (max-width:899px) {
+.col_width {
+	width: 50%;
+}	
+
 table.ta1 th,
 table.ta1 td{  
     width:100%;
     display:block;
+}
 }
