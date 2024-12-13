@@ -1175,5 +1175,8 @@ table.ta1 td{
     display: block;
     text-align: center;
 }
-	
+.br-sp {
+    display: inline-block;
+}
+
 }
