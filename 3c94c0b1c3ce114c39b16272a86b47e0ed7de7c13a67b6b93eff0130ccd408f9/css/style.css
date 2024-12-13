@@ -1169,3 +1169,7 @@ main {
 #menubar.db a {
 	color: #333;	/*文字色*/
 }
+.ta1 td{  
+    width:100%;
+    display:block;
+}
