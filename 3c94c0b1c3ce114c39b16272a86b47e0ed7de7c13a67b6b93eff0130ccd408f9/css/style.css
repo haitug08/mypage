@@ -1171,7 +1171,9 @@ main {
 
 table.ta1 th,
 table.ta1 td{  
-    width:100%;
-    display:block;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
+	
 }
