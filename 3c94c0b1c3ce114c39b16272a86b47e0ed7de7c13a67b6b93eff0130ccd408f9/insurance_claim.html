@@ -35,6 +35,22 @@
 <section>
 <h2>保険金請求</h2>
  <form class="form1">
+   <table class="ta1">
+     <caption>保険金請求</caption>
+    <tr>
+       <td>
+       <div class="radio1">
+        <input type="radio" id="change01" name="course" onchange="customCalculate()" value="change01">
+        <label for="change01" style="width: 300px; margin: 10px;">新規事故報告</label>
+        <input type="radio" id="change02" name="course" onchange="customCalculate()" value="change02">
+        <label for="change02" style="width: 300px; margin: 10px;">事故照会</label>
+        </div>
+       </td>
+    </tr>
+   </table>
+
+<div class="open1"> 
+ <form class="form1">
     <span style="font-weight: bold;">
      <div>■ 保険金請求のための事故報告をする場合、以下のフォームに必要事項を入力してください。</div>
     </span>
@@ -72,16 +88,27 @@
         <option value="">弁護士は決まっている</option>
         <option value="">弁護士は決まっていない</option>
         <option value="">その他</option>
-</select>
-</div></td>
+       </select>
+      </div></td>
     </tr>
    </table>
 <div class="btn">
  <a href="">送信</a>
 </div>
-     
 </form>
-
+</div>
+<div class="open2"> 
+ <table class="ta1">     
+    <caption>事故照会</caption>
+    <tr>
+      <th>事故番号</th>
+       <td><a href="insurance_contract.html" target="_blank"><span style="font-weight: bold;">0000000000</span></a></td>
+     <th>ステータス</th>
+     <td>審査中</td>
+    </tr>
+   </table>
+</div>
+ </form>
 </section>
  
 </main>
