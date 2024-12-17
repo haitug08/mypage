@@ -1164,6 +1164,10 @@ main {
 	color: #333;	/*文字色*/
 }
 
+.br-sp {
+    display: none;
+}
+
 @media screen and (max-width:899px) {
 .col_width {
 	width: 50%;
