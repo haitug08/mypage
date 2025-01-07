@@ -1174,12 +1174,12 @@ main {
 
 .login img{
 	width: 300px;
-	padding: 5px;
+	padding: 35px;
 	margin: auto;
 	display: block;
 }
 
-.login h4{
+.login h3{
 	text-align:center;
 }
 
@@ -1192,6 +1192,11 @@ main {
 .login th{
 	background-color: black;
 }
+.login td{
+	background-color: f0f0f0;
+}
+
+
 
 @media screen and (max-width:899px) {
 .col_width {
