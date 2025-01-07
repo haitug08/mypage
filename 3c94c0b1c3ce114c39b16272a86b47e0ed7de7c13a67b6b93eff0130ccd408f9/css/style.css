@@ -1180,7 +1180,11 @@ main {
 }
 
 .login h3{
-	text-align:center;
+	text-align: center;
+	padding: 20px;
+	background-color: #f0f0f0;
+	margin: auto;
+	font-weight: bold;
 }
 
 .login table{
@@ -1193,7 +1197,7 @@ main {
 	background-color: black;
 }
 .login td{
-	background-color: f0f0f0;
+	background-color: #f0f0f0;
 }
 
 
