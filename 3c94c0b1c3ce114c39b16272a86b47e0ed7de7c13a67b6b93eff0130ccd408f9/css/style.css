@@ -1181,6 +1181,9 @@ main {
 	border:none;
 }
 
+.login th{
+	background-color: black;
+}
 
 @media screen and (max-width:899px) {
 .col_width {
