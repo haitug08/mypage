@@ -1168,6 +1168,10 @@ main {
     display: none;
 }
 
+.login main{        
+	margin: 100px 0px;
+}
+
 .login img{
 	width: 300px;
 	padding: 5px;
@@ -1175,8 +1179,12 @@ main {
 	display: block;
 }
 
+.login h4{
+	text-align:center;
+}
+
 .login table{
-	max-width: 700px;
+	width: 600px;
 	margin: auto;
 	border:none;
 }
