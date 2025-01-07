@@ -1206,6 +1206,14 @@ main {
 	font-weight: bold;
 }
 
+.login input{
+	font-size: 14px;
+        background: #ffffff;
+        border: 0;
+        padding: 10px 25px;
+        width: 400px;
+}
+
 @media screen and (max-width:899px) {
 .col_width {
 	width: 50%;
