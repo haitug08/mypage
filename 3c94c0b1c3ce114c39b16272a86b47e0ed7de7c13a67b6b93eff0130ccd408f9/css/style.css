@@ -1234,6 +1234,11 @@ table.ta1 td{
     text-align: center;
     padding: 5px 5px;
 }
+	
+table.ta1 ul{ 
+	text-align: left;
+}
+	
 .br-sp {
     display: inline-block;
 }
