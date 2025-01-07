@@ -1177,7 +1177,7 @@ main {
 
 .login table{
 	max-width: 700px;
-	align: center;
+	margin: auto;
 	border:none;
 }
 
