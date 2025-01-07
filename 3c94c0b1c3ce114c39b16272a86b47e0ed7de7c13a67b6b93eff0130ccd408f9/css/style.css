@@ -1196,11 +1196,15 @@ main {
 .login th{
 	background-color: black;
 }
+
 .login td{
 	background-color: #f0f0f0;
+	padding: 10px 20px;
 }
 
-
+.login label{
+	font-weight: bold;
+}
 
 @media screen and (max-width:899px) {
 .col_width {
