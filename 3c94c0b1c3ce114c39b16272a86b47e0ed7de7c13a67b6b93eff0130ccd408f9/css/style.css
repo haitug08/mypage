@@ -1168,6 +1168,13 @@ main {
     display: none;
 }
 
+.login img{
+	width: 300px;
+	padding: 5px;
+	text-align: center;
+}
+
+
 @media screen and (max-width:899px) {
 .col_width {
 	width: 50%;
