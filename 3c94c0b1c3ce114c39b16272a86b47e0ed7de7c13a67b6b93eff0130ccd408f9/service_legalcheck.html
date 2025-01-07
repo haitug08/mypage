@@ -33,50 +33,106 @@
 <main>
 
 <section>
-<h2>帳票ダウンロード</h2>
-    <span style="font-weight: bold;">
-     <div>■ 保険契約に関する各種帳票をダウンロードできます。</div>
-    </span>
-   <table class="ta1">     
-    <caption>帳票</caption>
+<h2>保険金請求</h2>
+ <form class="form1">
+   <table class="ta1">
+     <caption>保険金請求</caption>
     <tr>
-    <th>普通保険約款</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
-    </tr>    
-    <tr>
-    <th>重要事項説明書</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
+       <td>
+       <div class="radio1">
+        <input type="radio" id="change01" name="course" onchange="customCalculate()" value="change01">
+        <label for="change01" style="width: 300px; margin: 10px;">新規事故報告</label>
+        <input type="radio" id="change02" name="course" onchange="customCalculate()" value="change02">
+        <label for="change02" style="width: 300px; margin: 10px;">事故照会</label>
+        </div>
+       </td>
     </tr>
-    <tr>
-    <th>パンフレット</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
-    </tr>
-    <tr>
-    <th>変更請求書</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
-    </tr>
-    <tr>
-    <th>解約請求書</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
-    </tr>
-    <tr>
-    <th>保険金請求書</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
-    </tr>
-    <tr>
-    <th>口座振替依頼書</th>
-    <td>KL2025・MD・***</td>
-    <td><a href="" target="_blank"><span style="font-weight: bold;">PDF</span></a></td>
-    </tr>
-
    </table>
 
+<div class="open1"> 
+ <form class="form1">
+    <span style="font-weight: bold;">
+     <div>■ 保険金請求のための事故報告をする場合、以下のフォームに必要事項を入力してください。</div>
+    </span>
+   <table class="ta1">     
+    <caption>事故報告</caption>
+    <tr>
+      <th>証券番号</th>
+       <td><a href="insurance_contract.html" target="_blank"><span style="font-weight: bold;">0000000000</span></a></td>
+    </tr>    
+    <tr>
+     <th>トラブルの発生時期</th>
+     <td><input type="date" id="" class="ws" style="width: 120px;"> 頃</td>
+    </tr>
+    <tr>
+     <th>トラブルの相手方</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相手方との関係</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 200px;"></td>
+    </tr>
+    <tr>
+     <th>トラブルの具体的な内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+    <tr>
+     <th>今後の方針または希望</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>    
+    <tr>
+     <th>弁護士の選定</th>
+     <td>
+      <div class="select1">
+       <select>
+        <option value="">弁護士は決まっている</option>
+        <option value="">弁護士は決まっていない</option>
+        <option value="">その他</option>
+       </select>
+      </div></td>
+    </tr>
+   </table>
+<div class="btn">
+ <a href="">送信</a>
+</div>
+</form>
+</div>
+  
+<div class="open2">
+ <form class="form1">
+     <span style="font-weight: bold;">
+     <div>■ 過去の事故報告について、現在のステータスは以下の通りです。</div>
+    </span>
+ <table class="ta1">     
+    <caption>事故照会</caption>
+    <tr>
+      <th>事故番号</th>
+       <td><a href="insurance_contract.html" target="_blank"><span style="font-weight: bold;">0000000000</span></a></td>
+     <th>ステータス</th>
+     <td>審査中</td>
+    </tr>    
+    <tr>
+      <th>事故番号</th>
+       <td><a href="insurance_contract.html" target="_blank"><span style="font-weight: bold;">0000000000</span></a></td>
+     <th>ステータス</th>
+     <td>対象外</td>
+    </tr>
+    <tr>
+      <th>事故番号</th>
+       <td><a href="insurance_contract.html" target="_blank"><span style="font-weight: bold;">0000000000</span></a></td>
+     <th>ステータス</th>
+     <td>継続</td>
+    </tr>
+    <tr>
+      <th>事故番号</th>
+       <td><a href="insurance_contract.html" target="_blank"><span style="font-weight: bold;">0000000000</span></a></td>
+     <th>ステータス</th>
+     <td>支払完了</td>
+    </tr>
+ </table>
+ </form>
+</div>
+</form>
 </section>
  
 </main>
@@ -102,4 +158,3 @@
  
 </body>
 </html>
-
