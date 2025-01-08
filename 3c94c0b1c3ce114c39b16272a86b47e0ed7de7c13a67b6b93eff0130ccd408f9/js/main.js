@@ -120,8 +120,6 @@ $(function(){
         $('#navigation').load('navigation.html'); 
         });
 
-//サイト外からのページ遷移を弾く
-if (!document.referrer){top.location.href="https://haitug08.github.io/mypage/";}
 
 //変更手続き内の表示・非表示切り替え
 function customCalculate() {
