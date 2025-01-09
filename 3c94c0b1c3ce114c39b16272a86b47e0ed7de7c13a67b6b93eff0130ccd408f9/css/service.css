@@ -10,18 +10,7 @@ main > section {
     border-top:dashed 1px #333;
     text-align:center;
 }
-h2 {
-    display:inline-block;
-    font-size:3.0rem;
-    padding:0 1.2em;
-    margin-bottom:0;
-    background:#fff;
-    position:relative;
-    top:-1.6em;
-}
-h3 {
-    font-size:1.7rem;
-}
+
 .points {
     font-size:1.3rem;
 }
