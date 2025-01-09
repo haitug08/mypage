@@ -3,9 +3,7 @@
 /*--------------------
 common
 --------------------*/
-main > section {
-	margin-top:100px;
-}
+
 #new_column,#movie {
     border-top:dashed 1px #333;
     text-align:center;
