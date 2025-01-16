@@ -1251,6 +1251,41 @@ main {
  margin:0 0 0 10px;
 }
 
+.temp {
+	argin: 40px 40px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.temp h3{
+	width: 100%;
+	font-size: 2.2rem;
+	margin: 0 0 0.2em;
+	padding: 0;
+}
+.temp div {
+	width: 50%;
+	display: flex;
+	align-items: flex-end;
+	padding: 1.0em;
+	border: 1px solid #ccc;
+	margin-left: -1px;
+	margin-top: -1px;
+}
+.temp dl {
+	width: 64%;
+	margin: 0 1% 0 6%;
+}
+.temp dt {
+	font-size: 1.4rem;
+	font-weight: bolder;
+	margin-bottom: 0.5em;
+}
+.temp dd {
+	font-size: 1.1rem;
+	line-height: 1.3;
+	color: #777;
+	margin-bottom: 1.2em;
+}
 
 @media screen and (max-width:899px) {
 .col_width {
