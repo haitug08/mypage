@@ -1276,7 +1276,8 @@ main {
 
 .ac-1 .btn a {
   color: white;
-  font-size: 50%;	
+  font-size: 100%;	
+  font-weight: bold;
 }
 
 
