@@ -1253,7 +1253,6 @@ main {
 
 .temp {
 	margin: 40px 40px 0;
-	display: flex;
 	flex-wrap: wrap;
 }
 .temp h3{
