@@ -1274,18 +1274,36 @@ main {
 }
 .temp dt {
 	font-size: 1.4rem;
-	font-weight: bolder;
+	font-weight: bold;
 	margin-bottom: 0.5em;
 	border-bottom: solid;
+	cursor: pointer;
+	padding: 5px;
+	background-color: #f0f0f0;
 }
 .temp dd {
+	display: none;
 	font-size: 1.1rem;
 	line-height: 1.3;
 	color: #777;
 	margin-bottom: 1.2em;
 }
 
+/* アクティブなdtの背景色を変更 */
+.temp dt.active {
+    background-color: #dcdcdc;
+}
 
+/* アコーディオンの開いたddにトランジションを追加 */
+.temp dd {
+    transition: max-height 0.3s ease-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.temp dd.open {
+    max-height: 200px; /* 充分な高さを設定 */
+}
 
 @media screen and (max-width:899px) {
 .col_width {
