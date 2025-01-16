@@ -1259,6 +1259,7 @@ main {
 
 .ac-1 li {
   margin: 5px 0;
+  width: 95%;
 }
 
 .child, .grandchild {
