@@ -160,17 +160,24 @@ function customCalculate() {
 
 
 $(document).ready(function() {
-    // h3がクリックされたときに、対応するdlを表示する
+    // h3がクリックされたとき、次のdiv内のdlをスライド表示/非表示
     $('h3').on('click', function() {
-        var $dl = $(this).next('div').find('dl');
-        $dl.slideToggle();
+        var $dl = $(this).next('.accordion-content').find('dl');
+        $dl.stop(true, true).slideToggle();
         $(this).toggleClass('active');
     });
 
-    // dtがクリックされたときに、対応するddを表示/非表示にする
+    // dtがクリックされたとき、対応するddを表示/非表示
     $('dt').on('click', function() {
         var $dd = $(this).next('dd');
-        $dd.toggleClass('open');
+        
+        // 他のddが開いていたら閉じる
+        $('dd').not($dd).removeClass('open').slideUp();
+        
+        // クリックしたddをトグル表示
+        $dd.toggleClass('open').slideToggle();
+        
+        // dtのアクティブ状態をトグル
         $(this).toggleClass('active');
     });
 });
