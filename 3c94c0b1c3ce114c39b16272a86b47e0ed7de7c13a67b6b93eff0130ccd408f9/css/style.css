@@ -1255,13 +1255,16 @@ main {
 .ac-1 ul {
   list-style-type: none;
   padding-left: 20px;
-  border-bottom: solid;
 }
 
 .ac-1 li {
   margin: 5px 0;
   width: 95%;
   border-bottom: dotted;
+}
+
+.ac-1 li:focus {
+  border-bottom: none;
 }
 
 .child, .grandchild {
