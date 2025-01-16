@@ -159,30 +159,19 @@ function customCalculate() {
   window.onload = setEndOfMonth;
 
 
+$(document).ready(function() {
+    // h3がクリックされたときに、対応するdlを表示する
+    $('h3').on('click', function() {
+        var $dl = $(this).next('div').find('dl');
+        $dl.slideToggle();
+        $(this).toggleClass('active');
+    });
 
-    let accordionDetails = '.js-details';
-    let accordionSummary = '.js-details-summary';
-    let accordionContent = '.js-details-content';
-    let speed = 500;
+    // dtがクリックされたときに、対応するddを表示/非表示にする
+    $('dt').on('click', function() {
+        var $dd = $(this).next('dd');
+        $dd.toggleClass('open');
+        $(this).toggleClass('active');
+    });
+});
 
-    $(accordionSummary).each(function() {
-      $(this).on("click", function(event) {
-        // summaryにis-activeクラスを切り替え
-        $(this).toggleClass("is-active");
-        // デフォルトの挙動を無効化
-        event.preventDefault();
-        if ($(this).parent($(accordionDetails)).attr("open")) {
-          // アコーディオンを閉じるときの処理
-          $(this).nextAll($(accordionContent)).slideUp(speed, function() {
-            // アニメーションの完了後にopen属性を取り除く
-            $(this).parent($(accordionDetails)).removeAttr("open");
-          });
-        } else {
-          // アコーディオンを開くときの処理
-          // open属性を付ける
-          $(this).parent($(accordionDetails)).attr("open", "true");
-          // いったんdisplay:none;してからslideDownで開く
-          $(this).nextAll($(accordionContent)).hide().slideDown(speed);
-        }
-      })
-    })
