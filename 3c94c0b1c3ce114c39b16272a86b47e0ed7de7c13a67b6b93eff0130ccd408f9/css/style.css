@@ -1266,13 +1266,17 @@ main {
 }
 
 .ac-1 a {
-  text-decoration: none;
   color: #333;
   font-size: 150%;
 }
 
 .ac-1 a:hover {
   color: #007bff;
+}
+
+.ac-1 .btn a {
+  color: white;
+  font-size: 50%;	
 }
 
 
