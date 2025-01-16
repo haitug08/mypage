@@ -1302,7 +1302,6 @@ main {
 	color: #fff;
 	font-size: 24px;
 	font-weight: bold;
-	text-align: center;
 	&.layer1 {
 		background-color: #b2e4e2;
 	}
@@ -1363,7 +1362,6 @@ main {
 	color: #fff;
 	font-size: 24px;
 	font-weight: bold;
-	text-align: center;
 }
 .details-content-item {
 	padding: 20px;
