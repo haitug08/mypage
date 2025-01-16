@@ -1252,12 +1252,12 @@ main {
 }
 
 
-ul {
+.ac-1 ul {
   list-style-type: none;
   padding-left: 20px;
 }
 
-li {
+.ac-1 li {
   margin: 5px 0;
 }
 
@@ -1265,12 +1265,12 @@ li {
   display: none;
 }
 
-a {
+.ac-1 a {
   text-decoration: none;
   color: #333;
 }
 
-a:hover {
+.ac-1 a:hover {
   color: #007bff;
 }
 
