@@ -1252,37 +1252,6 @@ main {
 }
 
 
-/* 初期状態でddを非表示 */
-dd {
-    display: none;
-    padding-left: 20px;
-    font-size: 0.9em;
-}
-
-/* クリックされたdtにカーソルを合わせると視覚的にわかるようにする */
-dt {
-    cursor: pointer;
-    font-weight: bold;
-    padding: 5px;
-    background-color: #f0f0f0;
-}
-
-/* アクティブなdtの背景色を変更 */
-dt.active {
-    background-color: #dcdcdc;
-}
-
-/* アコーディオンの開いたddにトランジションを追加 */
-dd {
-    transition: max-height 0.3s ease-out;
-    max-height: 0;
-    overflow: hidden;
-}
-
-dd.open {
-    max-height: 200px; /* 充分な高さを設定 */
-}
-
 
 
 @media screen and (max-width:899px) {
