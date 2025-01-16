@@ -1268,6 +1268,7 @@ main {
 .ac-1 a {
   text-decoration: none;
   color: #333;
+  font-size: 150%;
 }
 
 .ac-1 a:hover {
