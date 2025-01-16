@@ -158,4 +158,29 @@ function customCalculate() {
   // ページ読み込み後に月末日を設定
   window.onload = setEndOfMonth;
 
+// 親メニュークリック時に子メニューを表示/非表示
+document.querySelectorAll('.parent > a').forEach(item => {
+  item.addEventListener('click', (e) => {
+    e.preventDefault();
+    let childMenu = item.nextElementSibling;
+    if (childMenu.style.display === "block") {
+      childMenu.style.display = "none";
+    } else {
+      childMenu.style.display = "block";
+    }
+  });
+});
+
+// 子メニュークリック時に孫メニューを表示/非表示
+document.querySelectorAll('.child-item > a').forEach(item => {
+  item.addEventListener('click', (e) => {
+    e.preventDefault();
+    let grandchildMenu = item.nextElementSibling;
+    if (grandchildMenu.style.display === "block") {
+      grandchildMenu.style.display = "none";
+    } else {
+      grandchildMenu.style.display = "block";
+    }
+  });
+});
 
