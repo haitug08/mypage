@@ -1251,6 +1251,17 @@ main {
  margin:0 0 0 10px;
 }
 
+.temp a{
+    isplay: block;
+    width: 68%;
+    background: url(../images/icon_dl.png) #0750a2 90% center no-repeat;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    padding: 0.4em 1.0em 0.4em 0;
+    opacity: 1.0;
+}
+
 @media screen and (max-width:899px) {
 .col_width {
 	width: 50%;
