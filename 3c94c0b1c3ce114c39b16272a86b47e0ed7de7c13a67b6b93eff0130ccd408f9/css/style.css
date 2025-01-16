@@ -1263,10 +1263,6 @@ main {
   border-bottom: dotted;
 }
 
-.ac-1 li:focus {
-  border-bottom: none;
-}
-
 .child, .grandchild {
   display: none;
 }
