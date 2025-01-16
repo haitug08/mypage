@@ -1255,6 +1255,8 @@ main {
 /* 初期状態でddを非表示 */
 dd {
     display: none;
+    padding-left: 20px;
+    font-size: 0.9em;
 }
 
 /* クリックされたdtにカーソルを合わせると視覚的にわかるようにする */
@@ -1280,6 +1282,7 @@ dd {
 dd.open {
     max-height: 200px; /* 充分な高さを設定 */
 }
+
 
 
 @media screen and (max-width:899px) {
