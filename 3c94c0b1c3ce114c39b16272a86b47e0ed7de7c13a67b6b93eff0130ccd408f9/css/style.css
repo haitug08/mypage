@@ -1283,6 +1283,9 @@ main {
   font-weight: bold;
 }
 
+.grandchild li {
+ border-bottom: none;
+}	
 
 @media screen and (max-width:899px) {
 .col_width {
