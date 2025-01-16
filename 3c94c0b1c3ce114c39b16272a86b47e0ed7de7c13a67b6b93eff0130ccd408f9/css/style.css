@@ -1252,7 +1252,7 @@ main {
 }
 
 .temp {
-	argin: 40px 40px 0;
+	margin: 40px 40px 0;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -1267,7 +1267,6 @@ main {
 	display: flex;
 	align-items: flex-end;
 	padding: 1.0em;
-	border: 1px solid #ccc;
 	margin-left: -1px;
 	margin-top: -1px;
 }
