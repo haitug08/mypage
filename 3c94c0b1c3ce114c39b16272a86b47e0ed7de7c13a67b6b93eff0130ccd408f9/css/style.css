@@ -1277,6 +1277,10 @@ main {
   color: #007bff;
 }
 
+.ac-1 .btn {
+  margin-bottom: 20px;
+}
+
 .ac-1 .btn a {
   color: white;
   font-size: 100%;	
