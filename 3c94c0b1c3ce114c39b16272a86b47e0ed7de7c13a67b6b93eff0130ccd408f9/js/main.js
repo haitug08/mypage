@@ -124,7 +124,7 @@ $(function(){
 //表示・非表示切り替え
 function customCalculate() {
     const selectedOption = document.querySelector('input[name="course"]:checked').value;
-    const openElements = document.querySelectorAll(".open1, .open2, .open3, .open4, .open5");
+    const openElements = document.querySelectorAll(".open1, .open2, .open3, .open4, .open5, .open6, .open7, .open8, .open9, .open10, .open11");
 
     // すべての要素を非表示にする
     openElements.forEach(element => element.style.display = "none");
